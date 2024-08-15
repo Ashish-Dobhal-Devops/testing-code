@@ -61,5 +61,5 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Key name for EC2 instances"
-  default     = "my-key"
+  default     = "terraform-code-production-key"
 }
