@@ -1,6 +1,6 @@
 variable "region" {
   description = "The AWS region to deploy to"
-  default     = "us-east-1"
+  default     = "ap-south-1"
 }
 
 variable "hub_vpc_cidr" {
@@ -16,7 +16,7 @@ variable "prod_vpc_cidr" {
 variable "availability_zones" {
   description = "List of availability zones"
   type        = list(string)
-  default     = ["us-east-1a", "us-east-1b"]
+  default     = ["ap-south-1a", "ap-south-1b"]
 }
 
 variable "hub_public_subnets" {
