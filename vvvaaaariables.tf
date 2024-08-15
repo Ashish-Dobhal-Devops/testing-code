@@ -51,7 +51,7 @@ variable "prod_private_subnets" {
 
 variable "ami_id" {
   description = "AMI ID for EC2 instances"
-  default     = "ami-0c55b159cbfafe1f0"  # Example AMI ID
+  default     = "ami-0c2af51e265bd5e0e"  # Example AMI ID
 }
 
 variable "instance_type" {
